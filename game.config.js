@@ -27,6 +27,7 @@ window.GAME = {
     shortName: "Mon Centre",
     tagline: "Soigne, brosse et monte tes chevaux !",
     saveKey: "mon-centre-equestre",
+    legalLinks: [{ label: "Mentions légales", url: "https://ludea.ai/legal/" }, { label: "Confidentialité", url: "https://ludea.ai/privacy/" }],
     // Old (pre-engine) save → engine state. Horses keep their names, coats, ages and needs;
     // coins, hay, day, paddock size, decorations, stats and completed goals carry over.
     legacySave: { key: "mon-ranch-phaser", migrate: (o) => {
@@ -48,7 +49,7 @@ window.GAME = {
       };
     } },
     audience: { minAge: 9, notes: "kids 9–10, girls AND boys, cute but NOT manga, horses & riding, no scary content, light reading" },
-    assetVersion: "v19",
+    assetVersion: "v20",
     theme: { home: "#bfe6f5", play: "#7cbf5a", closeup: "#e9f6ff" },
 
     showCoins: true,

@@ -6,6 +6,8 @@ window.GAME_I18N.en = {
   "Mon Centre Équestre": "My Riding Centre",
   "Mon Centre": "My Centre",
   "Soigne, brosse et monte tes chevaux !": "Feed, brush and ride your horses!",
+  "Mentions légales": "Legal notice",
+  "Confidentialité": "Privacy",
   "Le nom de ton centre :": "Your riding centre's name:",
   "Les Écuries du Pré Vert": "Green Meadow Stables",
   "Ton prénom": "Your name",
